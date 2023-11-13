@@ -1,0 +1,56 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+
+@for $i from 1 through 12{
+    .m-#{$i} {
+        margin: $i#{px};
+    }
+}
+
+@for $i from 1 through 12{
+    .col-#{$i} {
+        width: (100% / 12) * $i;
+    }
+}
+
+body {
+    background-color: $primary-color;
+}
+
+header {
+    background-color: $secondary-color;
+
+    nav{
+        background-color: $tertiary-color;
+
+        ul{
+            list-style: none;
+
+            li{
+                display: flex;
+                margin: 0 10px;
+
+                a{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.btn{
+    @include button-style;
+
+    &:hover{
+        background-color: lighten($success-color, 30%);
+    }
+}
+
+.btn{
+    @include primary-btn(red);
+
+    &:hover{
+        background-color: lighten($success-color, 30%);
+    }
+}

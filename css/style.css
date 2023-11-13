@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.m-1 {
+  margin: 1 px;
+}
+
+.m-2 {
+  margin: 2 px;
+}
+
+.m-3 {
+  margin: 3 px;
+}
+
+.m-4 {
+  margin: 4 px;
+}
+
+.m-5 {
+  margin: 5 px;
+}
+
+.m-6 {
+  margin: 6 px;
+}
+
+.m-7 {
+  margin: 7 px;
+}
+
+.m-8 {
+  margin: 8 px;
+}
+
+.m-9 {
+  margin: 9 px;
+}
+
+.m-10 {
+  margin: 10 px;
+}
+
+.m-11 {
+  margin: 11 px;
+}
+
+.m-12 {
+  margin: 12 px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+body {
+  background-color: #fff64b;
+}
+
+header {
+  background-color: #39f8ff;
+}
+header nav {
+  background-color: #9160df;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: flex;
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #fff64b;
+}
+
+.btn {
+  background-color: #0eef1d;
+  color: #fff64b;
+  padding: 10px 20px;
+  border: 2px solid #ed0101;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #9df9a3;
+}
+
+.btn {
+  background-color: red;
+  color: #fff64b;
+  padding: 10px 20px;
+  border: 2px solid #ed0101;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #9df9a3;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+@mixin button-style{
+    background-color: $success-color;
+    color: $primary-color;
+    padding: 10px 20px;
+    border: 2px solid $error-color;
+    border-radius: 5px;
+}
+
+@mixin primary-btn ($color){
+    background-color: $color;
+    color: $primary-color;
+    padding: 10px 20px;
+    border: 2px solid $error-color;
+    border-radius: 5px;
+}
